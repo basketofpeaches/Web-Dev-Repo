@@ -1,5 +1,2 @@
 Homepage
-
-
-
-print: hi there
+hello
