@@ -137,12 +137,8 @@
 		<script src="colorbutton.js"></script>
 	
 	<div class="container">
-  <h2>Modal Example</h2>
-  <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
-
   <!-- Modal -->
-  <div class="modal fade in" id="myModal" role="dialog">
+  <div class="modal show" id="myModal" role="dialog">
     <div class="modal-dialog">
     
       <!-- Modal content-->
@@ -158,7 +154,8 @@
 	</p>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" onclick = "$('.modal').removeClass('show').addClass('fade');"  data-dismiss="modal">Close</button>
+
         </div>
       </div>
       
