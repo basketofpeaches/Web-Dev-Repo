@@ -1,12 +1,54 @@
 body {
   background-color: white;
-font-family: 'Indie Flower', sans-serif;
+  font-family: 'Indie Flower', sans-serif;
+  margin: 15px;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 h1 {
   color: black;
-font-family: 'Indie Flower', sans-serif;
+  font-family: 'Indie Flower', sans-serif;
+  text-align: center;
 }
 p {
   color: black;
 font-family: 'Indie Flower', sans-serif;
+}
+
+
+
+.grid {
+  display: grid;
+  grid-gap: 4rem;
+  grid-auto-flow: column;
+  margin: 0 0 4rem 0;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.grid > div {
+  height: 150px;
+  background: red;
+  width: 150px;
+}
+
+.container {
+  text-align: center;
+  display: none;
+}
+
+.container > div {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+button {
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  width: 100px;
+  margin: 10px;
 }
